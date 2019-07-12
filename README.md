@@ -10,7 +10,7 @@ The dataset used in this project is from the  [Fuel consumption ratings](https:/
 
 To understand better the data, it is important to visualizing it first. During the process, the data set was modified because of the format, and only the important components of the data set were extracted, like fuel consumption in the city and highway, the engine size and the number of cylinders.
 
-![data](images\visualData.png)
+![data](images/visualData.png)
 
 The data shows a lineal tendency, so we can assume that a linear regression model will fit the data.
 
@@ -32,7 +32,7 @@ test = df[~mask]
 
 We plot the training and test data.
 
-![Training_Test](images\modelData.png)
+![Training_Test](images/modelData.png)
 
 A linear regression is just the equation of the line <a href="https://www.codecogs.com/eqnedit.php?latex=\hat{y}&space;=&space;\theta_0&plus;\theta_1x" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\hat{y}&space;=&space;\theta_0&plus;\theta_1x" title="\hat{y} = \theta_0+\theta_1x" /></a>.
 
