@@ -66,7 +66,7 @@ Now we plot the line with the training data to see how well it fits.
 
 ### Predicting
 
-Now we need check if the model predicted the values of emissions right or not. For that we are going to use the test data to calculate the **(M)ean (A)bsolute (E)rror**, the **(R)esidual (S)um of (S)quares** and the **Coefficient of Determination <a href="https://www.codecogs.com/eqnedit.php?latex=\theta_1&space;&=&space;36.27157023" target="_blank"><img src="https://latex.codecogs.com/svg.latex?R^2" title="\theta_1 &= 36.27157023" /></a> **. This values shows if there is any discrepancies with the test data and what was predicted. The lower the values of MAE and RSS the better. And if <img src="https://latex.codecogs.com/svg.latex?R^2" title="\theta_1 &= 36.27157023" /> is closer to 1, it means it the model fits the data perfect. Using the Library Scikit-learn and Numpy we can calculate this three values.
+Now we need check if the model predicted the values of emissions right or not. For that we are going to use the test data to calculate the **(M)ean (A)bsolute (E)rror**, the **(R)esidual (S)um of (S)quares** and the **Coefficient of Determination** <a href="https://www.codecogs.com/eqnedit.php?latex=\theta_1&space;&=&space;36.27157023" target="_blank"><img src="https://latex.codecogs.com/svg.latex?R^2" title="\theta_1 &= 36.27157023" /></a>. This values shows if there is any discrepancies with the test data and what was predicted. The lower the values of MAE and RSS the better. And if <img src="https://latex.codecogs.com/svg.latex?R^2" title="\theta_1 &= 36.27157023" /> is closer to 1, it means it the model fits the data perfect. Using the Library Scikit-learn and Numpy we can calculate this three values.
 
 ```python
 from sklearn.metrics import r2_score
